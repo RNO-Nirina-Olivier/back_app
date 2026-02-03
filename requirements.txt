@@ -1,8 +1,10 @@
 fastapi==0.115.0
 uvicorn[standard]==0.30.6
-scikit-learn==1.5.1  # Pre-compilé
-numpy==1.25.3
+pydantic==2.9.2
 pandas==2.2.2
 joblib==1.4.2
-scipy==1.14.1
-threadpoolctl==3.5.0
+scikit-learn==1.5.1
+openpyxl==3.1.2
+numpy==1.26.4
+python-multipart==0.0.9
+gunicorn==22.0.0
